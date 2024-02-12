@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="..//design.css">
+    <style>
+        .signup {
+
+            margin: 20px;
+           
+            margin-left: 450px;
+            margin-right: 400px;
+            padding-top: 50px;
+            padding-left: 150px;
+            padding-bottom: 50px;
+            box-shadow: 0 0 10px black;
+            border-radius: 10px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .signup_btn {
+            padding-left: 100px;
+          
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <div class="header_main">
+        <div class="logo">
+            <img src="../materials/logo.jpg" alt="logo">
+        </div>
+        <div class="bank_name">
+            Nagarik Bank pvt.ltd
+        </div>
+       <div class="nav">
+         <ul>
+            <li><a href="..//index.php">Home</a></li>
+            <li> <a href="..//aboutus.php ">About us</a></li>
+         </ul>
+       </div>
+       <div class="sign_in">
+        <a href="..//signin.html">Sign in</a>
+     </div>
+      
+
+    </div>
+
+
+    <form action="newaccount.php" method="post">
+        <div class="signup">
+            Account number: <input type="text" name="ac_num"> <br><br>
+            Account Name:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name" ><br><br>
+            Gender:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="gender" value="male" checked="male">Male
+                    <input type="radio" name="gender" value="female">Female<br><br>
+            Age:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
+            <input type="text" name="age"><br><br>
+            Address:&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+             <input type="text" name="address"><br><br>
+            Mobile no:&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <input type="text" name="mobile_num"><br><br>
+            E-mail:&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="email"><br><br>
+            Password:&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+            <input type="password" name="password"><br><br>
+            Confirm password: <input type="password" name="confirmpass"><br><br>
+            <div class="signup_btn">
+                <input type="submit" value="Signup"><br>
+            </div>
+            
+        </div>
+    </form>
+
+
+    <div class="footer_main">
+        <div class="customer_support">
+           <h3> Customer support</h3> <br>
+            E-mail:customercare@nagarikbank.com <br>
+            Phone: 9861917467
+        </div>
+        <div class="services">
+            <h3>Facilites</h3><br>
+            Fund Transfer <br>
+            Diposit <br>
+            Withdraw <br>
+        </div>
+        <div class="features">
+            <h3>Features</h3><br>
+            Secure transaction <br>
+            Trustworthy <br>
+            One of the top banks
+        </div>
+        <hr>
+      
+        <div class="copyright">
+            Copyright © 2024 Nagarik Bank Limited <br>
+          &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;  &nbsp;  &nbsp;      
+          All rights reserved 
+        </div>
+      
+       
+    </div>
+
+</html>
